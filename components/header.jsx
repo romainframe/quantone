@@ -1,42 +1,53 @@
 import Image from 'next/image';
-import Link from 'next/link';
-import netlifyLogo from 'public/netlify-logo.svg';
+import { useTranslations } from 'next-intl';
+import { Link } from '../i18n/navigation';
+import { LangSwitcher } from './lang-switcher';
 import githubLogo from 'public/images/github-mark-white.svg';
 
-const navItems = [
-    { linkText: 'Home', href: '/' },
-    { linkText: 'Revalidation', href: '/revalidation' },
-    { linkText: 'Image CDN', href: '/image-cdn' },
-    { linkText: 'Edge Function', href: '/edge' },
-    { linkText: 'Blobs', href: '/blobs' },
-    { linkText: 'Classics', href: '/classics' }
-];
+const navItems = [];
 
 export function Header() {
+    const t = useTranslations('Header');
+
+    const navItems = [
+        { linkText: t('home'), href: '/' },
+        { linkText: t('rhythms'), href: '/rhythms' },
+        { linkText: t('about'), href: '/about' }
+    ];
+
     return (
-        <nav className="flex flex-wrap items-center gap-4 pt-6 pb-12 sm:pt-12 md:pb-24">
-            <Link href="/">
-                <Image src={netlifyLogo} alt="Netlify logo" />
-            </Link>
-            {!!navItems?.length && (
-                <ul className="flex flex-wrap gap-x-4 gap-y-1">
-                    {navItems.map((item, index) => (
-                        <li key={index}>
-                            <Link href={item.href} className="inline-flex px-1.5 py-1 sm:px-3 sm:py-2">
+        <header className="w-full bg-[#22c55e] border-b-8 border-black">
+            <div className="max-w-7xl mx-auto px-6 lg:px-8">
+                <nav className="flex items-center justify-between h-24">
+                    <Link href="/" className="flex items-center">
+                        <span className="text-4xl font-black text-black uppercase tracking-tighter transform -skew-x-6">quantone</span>
+                    </Link>
+                    
+                    <div className="hidden md:flex items-center space-x-2">
+                        {navItems.map((item, index) => (
+                            <Link 
+                                key={index}
+                                href={item.href} 
+                                className="text-lg font-black text-black uppercase tracking-wide px-4 py-2 bg-[#fbbf24] border-4 border-black hover:bg-[#f59e0b] transition-colors transform hover:scale-105"
+                            >
                                 {item.linkText}
                             </Link>
-                        </li>
-                    ))}
-                </ul>
-            )}
-            <Link
-                href="https://github.com/netlify-templates/next-platform-starter"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hidden lg:inline-flex lg:ml-auto"
-            >
-                <Image src={githubLogo} alt="GitHub logo" className="w-7" />
-            </Link>
-        </nav>
+                        ))}
+                    </div>
+
+                    <div className="flex items-center space-x-4">
+                        <LangSwitcher />
+                        <Link
+                            href="https://github.com/romainframe/quantone"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-3 bg-black border-4 border-black hover:bg-gray-800 transition-colors"
+                        >
+                            <Image src={githubLogo} alt="GitHub logo" className="w-6 h-6 invert" />
+                        </Link>
+                    </div>
+                </nav>
+            </div>
+        </header>
     );
 }
