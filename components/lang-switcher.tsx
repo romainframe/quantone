@@ -1,9 +1,10 @@
 'use client';
 
 import { useLocale } from 'next-intl';
+
 import { Link, usePathname } from '../i18n/navigation';
 
-const locales = ['en', 'es', 'fr'];
+const locales = ['en', 'es', 'fr'] as const;
 
 export function LangSwitcher() {
   const pathname = usePathname();
