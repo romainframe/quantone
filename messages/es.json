@@ -6,11 +6,123 @@
     },
     "Home": {
         "title": "QUANTONE",
-        "description": "EXPLORANDO LAS INTERSECCIONES DE LA MÚSICA, LAS MATEMÁTICAS, LOS RITMOS Y LA ARMONÍA"
+        "description": "EXPLORANDO LAS INTERSECCIONES DE LA MÚSICA, LAS MATEMÁTICAS, LOS RITMOS Y LA ARMONÍA",
+        "buttons": {
+            "explore": "EXPLORAR RITMOS",
+            "learn": "APRENDE MÁS"
+        },
+        "features": {
+            "title": "MÚSICA × MATEMÁTICAS",
+            "subtitle": "DESCUBRE LOS PATRONES OCULTOS Y LA BELLEZA MATEMÁTICA DENTRO DE LOS RITMOS",
+            "cards": {
+                "rhythm": {
+                    "title": "ANÁLISIS DE RITMOS",
+                    "description": "EXPLORA PATRONES RÍTMICOS COMPLEJOS Y SUS FUNDAMENTOS MATEMÁTICOS"
+                },
+                "harmonic": {
+                    "title": "ESTRUCTURAS ARMÓNICAS",
+                    "description": "COMPRENDE LAS RELACIONES GEOMÉTRICAS EN LA ARMONÍA MUSICAL"
+                },
+                "infinite": {
+                    "title": "PATRONES INFINITOS",
+                    "description": "DESCUBRE LA INFINITA BELLEZA MATEMÁTICA EN LA COMPOSICIÓN MUSICAL"
+                }
+            }
+        },
+        "newsletter": {
+            "title": "DEJA QUE BENDIGAMOS TU BANDEJA DE ENTRADA...",
+            "placeholder": "OBTÉN LOS ÚLTIMOS APRENDIZAJES 📊",
+            "button": "SUSCRIBIRSE"
+        }
     },
     "Rhythms": {
         "title": "RITMOS",
-        "description": "EXPLORA VARIOS RITMOS Y SUS FUNDAMENTOS MATEMÁTICOS"
+        "description": "EXPLORA VARIOS RITMOS Y SUS FUNDAMENTOS MATEMÁTICOS",
+        "cards": {
+            "generator": {
+                "title": "GENERADOR DE RITMOS",
+                "description": "CREA Y EXPLORA PATRONES RÍTMICOS MATEMÁTICOS CON CONTROLES INTERACTIVOS",
+                "button": "LANZAR GENERADOR"
+            },
+            "polyrhythms": {
+                "title": "POLIRRITMOS",
+                "description": "EXPLORA LA BELLEZA MATEMÁTICA DE LOS PATRONES RÍTMICOS SUPERPUESTOS",
+                "button": "VIZ RÍTMICA"
+            },
+            "timeSignatures": {
+                "title": "COMPASES",
+                "description": "COMPRENDE LAS ESTRUCTURAS MATEMÁTICAS QUE DEFINEN EL TIEMPO MUSICAL",
+                "button": "PATRONES DE COMPÁS"
+            },
+            "euclidean": {
+                "title": "RITMOS EUCLIDIANOS",
+                "description": "DESCUBRE CÓMO LAS MATEMÁTICAS ANTIGUAS CREAN RITMOS MODERNOS",
+                "button": "PATRONES EUCLIDIANOS"
+            },
+            "fractals": {
+                "title": "FRACTALES EN LA MÚSICA",
+                "description": "EXPLORA PATRONES AUTOSIMILARES EN LA COMPOSICIÓN RÍTMICA",
+                "button": "VIZ FRACTAL"
+            }
+        }
+    },
+    "RhythmGenerator": {
+        "title": "Generador de Ritmos",
+        "subtitle": "Explora patrones matemáticos en ritmos musicales",
+        "controls": {
+            "pulses": "Número de Pulsos (n)",
+            "onsets": "Número de Inicios (k)",
+            "algorithm": "Algoritmo de Puntuación",
+            "viewMode": "Modo de Vista",
+            "circular": "Circular",
+            "linear": "Lineal"
+        },
+        "algorithms": {
+            "evenness": "Uniformidad",
+            "entropy": "Entropía",
+            "balance": "Balance",
+            "maxGap": "Brecha Máxima",
+            "symmetry": "Simetría"
+        },
+        "results": {
+            "title": "Mejor Patrón de {{algorithm}}",
+            "score": "Puntuación:",
+            "binaryPattern": "Patrón Binario:",
+            "onsetPositions": "Posiciones de Inicio:",
+            "noPattern": "No hay patrón para mostrar. Ajusta los parámetros anteriores."
+        },
+        "descriptions": {
+            "evenness": {
+                "title": "Uniformidad",
+                "text": "Mide qué tan uniformemente espaciados están los beats alrededor del círculo. La uniformidad perfecta significa que todas las brechas son iguales."
+            },
+            "entropy": {
+                "title": "Entropía",
+                "text": "Mide la imprevisibilidad del ritmo. Mayor entropía significa más variedad en las longitudes de las brechas."
+            },
+            "balance": {
+                "title": "Balance",
+                "text": "Mide qué tan centrado está el patrón. Los ritmos balanceados tienen su centro de masa en el centro del círculo."
+            },
+            "maxGap": {
+                "title": "Brecha Máxima",
+                "text": "Minimiza la brecha más grande entre beats. Puntuaciones más altas significan que no hay silencios extremadamente largos."
+            },
+            "symmetry": {
+                "title": "Simetría",
+                "text": "Verifica si el patrón es palindrómico (se lee igual hacia adelante y hacia atrás)."
+            }
+        }
+    },
+    "Footer": {
+        "title": "QUANTONE",
+        "description": "EXPLORANDO LAS INTERSECCIONES DE LA MÚSICA, LAS MATEMÁTICAS, LOS RITMOS Y LA ARMONÍA",
+        "links": {
+            "rhythms": "RITMOS",
+            "github": "GITHUB",
+            "openSource": "CÓDIGO ABIERTO"
+        },
+        "copyright": "© 2025 QUANTONE. TODOS LOS DERECHOS RESERVADOS"
     },
     "About": {
         "title": "ACERCA",
@@ -89,7 +201,13 @@
                     "url": "https://www.jstor.org/stable/851465",
                     "description": "ANÁLISIS DE PATRONES RÍTMICOS COMPLEJOS EN LA MÚSICA AFRICANA TRADICIONAL"
                 }
-            ]
+            ],
+            "sections": {
+                "papers": "ARTÍCULOS DE INVESTIGACIÓN",
+                "articles": "ARTÍCULOS Y RECURSOS",
+                "read": "LEER",
+                "explore": "EXPLORAR"
+            }
         }
     },
     "NotFound": {

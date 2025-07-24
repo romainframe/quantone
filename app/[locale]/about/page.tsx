@@ -102,7 +102,7 @@ export default function AboutPage() {
           {/* Research Papers */}
           <div className="mb-16">
             <h3 className="text-4xl font-black text-[#22c55e] mb-8 uppercase tracking-wide">
-                            RESEARCH PAPERS
+              {t('literature.sections.papers')}
             </h3>
             <div className="grid gap-6">
               {(t.raw('literature.papers') as Paper[]).map((paper: Paper, index: number) => (
@@ -127,7 +127,7 @@ export default function AboutPage() {
                       rel="noopener noreferrer"
                       className="px-6 py-3 bg-[#ef4444] text-white font-black uppercase border-4 border-black hover:bg-[#dc2626] transition-colors"
                     >
-                                            READ
+                      {t('literature.sections.read')}
                     </a>
                   </div>
                 </div>
@@ -138,7 +138,7 @@ export default function AboutPage() {
           {/* Articles */}
           <div>
             <h3 className="text-4xl font-black text-[#fbbf24] mb-8 uppercase tracking-wide">
-                            ARTICLES & RESOURCES
+              {t('literature.sections.articles')}
             </h3>
             <div className="grid md:grid-cols-2 gap-6">
               {(t.raw('literature.articles') as Article[]).map((article: Article, index: number) => (
@@ -160,7 +160,7 @@ export default function AboutPage() {
                     rel="noopener noreferrer"
                     className="inline-block px-6 py-3 bg-black text-[#22c55e] font-black uppercase border-4 border-black hover:bg-gray-800 transition-colors"
                   >
-                                        EXPLORE
+                    {t('literature.sections.explore')}
                   </a>
                 </div>
               ))}

@@ -6,11 +6,123 @@
     },
     "Home": {
         "title": "QUANTONE",
-        "description": "EXPLORING THE INTERSECTIONS OF MUSIC, MATHEMATICS, RHYTHMS, AND HARMONY"
+        "description": "EXPLORING THE INTERSECTIONS OF MUSIC, MATHEMATICS, RHYTHMS, AND HARMONY",
+        "buttons": {
+            "explore": "EXPLORE RHYTHMS",
+            "learn": "LEARN MORE"
+        },
+        "features": {
+            "title": "MUSIC × MATH",
+            "subtitle": "DISCOVER THE HIDDEN PATTERNS AND MATHEMATICAL BEAUTY WITHIN RHYTHMS",
+            "cards": {
+                "rhythm": {
+                    "title": "RHYTHM ANALYSIS",
+                    "description": "EXPLORE COMPLEX RHYTHMIC PATTERNS AND THEIR MATHEMATICAL FOUNDATIONS"
+                },
+                "harmonic": {
+                    "title": "HARMONIC STRUCTURES",
+                    "description": "UNDERSTAND THE GEOMETRIC RELATIONSHIPS IN MUSICAL HARMONY"
+                },
+                "infinite": {
+                    "title": "INFINITE PATTERNS",
+                    "description": "DISCOVER THE ENDLESS MATHEMATICAL BEAUTY IN MUSICAL COMPOSITION"
+                }
+            }
+        },
+        "newsletter": {
+            "title": "LET US BLESS YOUR INBOX...",
+            "placeholder": "GET THE LATEST LEARNINGS 📊",
+            "button": "SUBSCRIBE"
+        }
     },
     "Rhythms": {
         "title": "RHYTHMS",
-        "description": "EXPLORE VARIOUS RHYTHMS AND THEIR MATHEMATICAL FOUNDATIONS"
+        "description": "EXPLORE VARIOUS RHYTHMS AND THEIR MATHEMATICAL FOUNDATIONS",
+        "cards": {
+            "generator": {
+                "title": "RHYTHM GENERATOR",
+                "description": "CREATE AND EXPLORE MATHEMATICAL RHYTHM PATTERNS WITH INTERACTIVE CONTROLS",
+                "button": "LAUNCH GENERATOR"
+            },
+            "polyrhythms": {
+                "title": "POLYRHYTHMS",
+                "description": "EXPLORE THE MATHEMATICAL BEAUTY OF OVERLAPPING RHYTHMIC PATTERNS",
+                "button": "RHYTHM VIZ"
+            },
+            "timeSignatures": {
+                "title": "TIME SIGNATURES",
+                "description": "UNDERSTAND THE MATHEMATICAL STRUCTURES THAT DEFINE MUSICAL TIME",
+                "button": "SIGNATURE PATTERNS"
+            },
+            "euclidean": {
+                "title": "EUCLIDEAN RHYTHMS",
+                "description": "DISCOVER HOW ANCIENT MATHEMATICS CREATES MODERN BEATS",
+                "button": "EUCLIDEAN PATTERNS"
+            },
+            "fractals": {
+                "title": "FRACTALS IN MUSIC",
+                "description": "EXPLORE SELF-SIMILAR PATTERNS IN RHYTHMIC COMPOSITION",
+                "button": "FRACTAL VIZ"
+            }
+        }
+    },
+    "RhythmGenerator": {
+        "title": "Rhythm Generator",
+        "subtitle": "Explore mathematical patterns in musical rhythms",
+        "controls": {
+            "pulses": "Number of Pulses (n)",
+            "onsets": "Number of Onsets (k)",
+            "algorithm": "Scoring Algorithm",
+            "viewMode": "View Mode",
+            "circular": "Circular",
+            "linear": "Linear"
+        },
+        "algorithms": {
+            "evenness": "Evenness",
+            "entropy": "Entropy",
+            "balance": "Balance",
+            "maxGap": "Max Gap",
+            "symmetry": "Symmetry"
+        },
+        "results": {
+            "title": "Top {{algorithm}} Pattern",
+            "score": "Score:",
+            "binaryPattern": "Binary Pattern:",
+            "onsetPositions": "Onset Positions:",
+            "noPattern": "No pattern to display. Adjust the parameters above."
+        },
+        "descriptions": {
+            "evenness": {
+                "title": "Evenness",
+                "text": "Measures how evenly spaced the beats are around the circle. Perfect evenness means all gaps are equal."
+            },
+            "entropy": {
+                "title": "Entropy",
+                "text": "Measures the unpredictability of the rhythm. Higher entropy means more variety in gap lengths."
+            },
+            "balance": {
+                "title": "Balance",
+                "text": "Measures how centered the pattern is. Balanced rhythms have their center of mass at the circle's center."
+            },
+            "maxGap": {
+                "title": "Max Gap",
+                "text": "Minimizes the largest gap between beats. Higher scores mean no extremely long silences."
+            },
+            "symmetry": {
+                "title": "Symmetry",
+                "text": "Checks if the pattern is palindromic (reads the same forwards and backwards)."
+            }
+        }
+    },
+    "Footer": {
+        "title": "QUANTONE",
+        "description": "EXPLORING THE INTERSECTIONS OF MUSIC, MATHEMATICS, RHYTHMS, AND HARMONY",
+        "links": {
+            "rhythms": "RHYTHMS",
+            "github": "GITHUB",
+            "openSource": "OPEN SOURCE"
+        },
+        "copyright": "© 2025 QUANTONE. ALL RIGHTS RESERVED"
     },
     "About": {
         "title": "ABOUT",
@@ -89,7 +201,13 @@
                     "url": "https://www.jstor.org/stable/851465",
                     "description": "ANALYSIS OF COMPLEX RHYTHMIC PATTERNS IN TRADITIONAL AFRICAN MUSIC"
                 }
-            ]
+            ],
+            "sections": {
+                "papers": "RESEARCH PAPERS",
+                "articles": "ARTICLES & RESOURCES",
+                "read": "READ",
+                "explore": "EXPLORE"
+            }
         }
     },
     "NotFound": {

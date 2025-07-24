@@ -6,11 +6,123 @@
     },
     "Home": {
         "title": "QUANTONE",
-        "description": "EXPLORANT LES INTERSECTIONS DE LA MUSIQUE, DES MATHÉMATIQUES, DES RYTHMES ET DE L'HARMONIE"
+        "description": "EXPLORANT LES INTERSECTIONS DE LA MUSIQUE, DES MATHÉMATIQUES, DES RYTHMES ET DE L'HARMONIE",
+        "buttons": {
+            "explore": "EXPLORER LES RYTHMES",
+            "learn": "EN SAVOIR PLUS"
+        },
+        "features": {
+            "title": "MUSIQUE × MATHS",
+            "subtitle": "DÉCOUVREZ LES MOTIFS CACHÉS ET LA BEAUTÉ MATHÉMATIQUE AU SEIN DES RYTHMES",
+            "cards": {
+                "rhythm": {
+                    "title": "ANALYSE RYTHMIQUE",
+                    "description": "EXPLOREZ LES MOTIFS RYTHMIQUES COMPLEXES ET LEURS FONDEMENTS MATHÉMATIQUES"
+                },
+                "harmonic": {
+                    "title": "STRUCTURES HARMONIQUES",
+                    "description": "COMPRENEZ LES RELATIONS GÉOMÉTRIQUES DANS L'HARMONIE MUSICALE"
+                },
+                "infinite": {
+                    "title": "MOTIFS INFINIS",
+                    "description": "DÉCOUVREZ LA BEAUTÉ MATHÉMATIQUE INFINIE DANS LA COMPOSITION MUSICALE"
+                }
+            }
+        },
+        "newsletter": {
+            "title": "LAISSEZ-NOUS BÉNIR VOTRE BOÎTE DE RÉCEPTION...",
+            "placeholder": "OBTENEZ LES DERNIERS APPRENTISSAGES 📊",
+            "button": "S'ABONNER"
+        }
     },
     "Rhythms": {
         "title": "RYTHMES",
-        "description": "EXPLOREZ DIVERS RYTHMES ET LEURS FONDEMENTS MATHÉMATIQUES"
+        "description": "EXPLOREZ DIVERS RYTHMES ET LEURS FONDEMENTS MATHÉMATIQUES",
+        "cards": {
+            "generator": {
+                "title": "GÉNÉRATEUR DE RYTHMES",
+                "description": "CRÉEZ ET EXPLOREZ DES MOTIFS RYTHMIQUES MATHÉMATIQUES AVEC DES CONTRÔLES INTERACTIFS",
+                "button": "LANCER LE GÉNÉRATEUR"
+            },
+            "polyrhythms": {
+                "title": "POLYRYTHMES",
+                "description": "EXPLOREZ LA BEAUTÉ MATHÉMATIQUE DES MOTIFS RYTHMIQUES SUPERPOSÉS",
+                "button": "VIZ RYTHMIQUE"
+            },
+            "timeSignatures": {
+                "title": "SIGNATURES TEMPORELLES",
+                "description": "COMPRENEZ LES STRUCTURES MATHÉMATIQUES QUI DÉFINISSENT LE TEMPS MUSICAL",
+                "button": "MOTIFS DE SIGNATURE"
+            },
+            "euclidean": {
+                "title": "RYTHMES EUCLIDIENS",
+                "description": "DÉCOUVREZ COMMENT LES MATHÉMATIQUES ANCIENNES CRÉENT DES RYTHMES MODERNES",
+                "button": "MOTIFS EUCLIDIENS"
+            },
+            "fractals": {
+                "title": "FRACTALES DANS LA MUSIQUE",
+                "description": "EXPLOREZ LES MOTIFS AUTO-SIMILAIRES DANS LA COMPOSITION RYTHMIQUE",
+                "button": "VIZ FRACTALE"
+            }
+        }
+    },
+    "RhythmGenerator": {
+        "title": "Générateur de Rythmes",
+        "subtitle": "Explorez les motifs mathématiques dans les rythmes musicaux",
+        "controls": {
+            "pulses": "Nombre de Pulsations (n)",
+            "onsets": "Nombre de Débuts (k)",
+            "algorithm": "Algorithme de Notation",
+            "viewMode": "Mode d'Affichage",
+            "circular": "Circulaire",
+            "linear": "Linéaire"
+        },
+        "algorithms": {
+            "evenness": "Uniformité",
+            "entropy": "Entropie",
+            "balance": "Équilibre",
+            "maxGap": "Écart Maximum",
+            "symmetry": "Symétrie"
+        },
+        "results": {
+            "title": "Meilleur Motif de {{algorithm}}",
+            "score": "Score :",
+            "binaryPattern": "Motif Binaire :",
+            "onsetPositions": "Positions de Début :",
+            "noPattern": "Aucun motif à afficher. Ajustez les paramètres ci-dessus."
+        },
+        "descriptions": {
+            "evenness": {
+                "title": "Uniformité",
+                "text": "Mesure l'espacement uniforme des battements autour du cercle. L'uniformité parfaite signifie que tous les écarts sont égaux."
+            },
+            "entropy": {
+                "title": "Entropie",
+                "text": "Mesure l'imprévisibilité du rythme. Une entropie plus élevée signifie plus de variété dans les longueurs d'écart."
+            },
+            "balance": {
+                "title": "Équilibre",
+                "text": "Mesure le centrage du motif. Les rythmes équilibrés ont leur centre de masse au centre du cercle."
+            },
+            "maxGap": {
+                "title": "Écart Maximum",
+                "text": "Minimise le plus grand écart entre les battements. Des scores plus élevés signifient qu'il n'y a pas de silences extrêmement longs."
+            },
+            "symmetry": {
+                "title": "Symétrie",
+                "text": "Vérifie si le motif est palindromique (se lit de la même façon dans les deux sens)."
+            }
+        }
+    },
+    "Footer": {
+        "title": "QUANTONE",
+        "description": "EXPLORANT LES INTERSECTIONS DE LA MUSIQUE, DES MATHÉMATIQUES, DES RYTHMES ET DE L'HARMONIE",
+        "links": {
+            "rhythms": "RYTHMES",
+            "github": "GITHUB",
+            "openSource": "OPEN SOURCE"
+        },
+        "copyright": "© 2025 QUANTONE. TOUS DROITS RÉSERVÉS"
     },
     "About": {
         "title": "À PROPOS",
@@ -89,7 +201,13 @@
                     "url": "https://www.jstor.org/stable/851465",
                     "description": "ANALYSE DE MOTIFS RYTHMIQUES COMPLEXES DANS LA MUSIQUE AFRICAINE TRADITIONNELLE"
                 }
-            ]
+            ],
+            "sections": {
+                "papers": "ARTICLES DE RECHERCHE",
+                "articles": "ARTICLES ET RESSOURCES",
+                "read": "LIRE",
+                "explore": "EXPLORER"
+            }
         }
     },
     "NotFound": {
