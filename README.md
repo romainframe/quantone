@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d716764a-c741-4ad6-85bc-dca0179f354b/deploy-status)](https://app.netlify.com/projects/quantone/deploys)
 
 ## Overview
 

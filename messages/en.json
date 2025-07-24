@@ -91,5 +91,12 @@
                 }
             ]
         }
+    },
+    "NotFound": {
+        "title": "404",
+        "subtitle": "LOST IN THE RHYTHM?",
+        "description": "THE PAGE YOU'RE LOOKING FOR HAS ESCAPED INTO ANOTHER DIMENSION OF MUSICAL MATHEMATICS",
+        "home": "RETURN HOME",
+        "explore": "EXPLORE RHYTHMS"
     }
 }

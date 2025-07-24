@@ -91,5 +91,12 @@
                 }
             ]
         }
+    },
+    "NotFound": {
+        "title": "404",
+        "subtitle": "PERDU DANS LE RYTHME ?",
+        "description": "LA PAGE QUE VOUS CHERCHEZ S'EST ÉCHAPPÉE DANS UNE AUTRE DIMENSION DES MATHÉMATIQUES MUSICALES",
+        "home": "RETOUR À L'ACCUEIL",
+        "explore": "EXPLORER LES RYTHMES"
     }
 }
